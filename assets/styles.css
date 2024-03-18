@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    border-top: double 1rem;
+    border-bottom: 2px solid black;
+  }
+  
+  .left-side, .right-side {
+    width: 48%;
+    padding: 100px;
+    border-bottom: double 1rem black;
+  }
+  
+  form label {
+    display:flex;
+    justify-content: left;
+  }
+  .yellow-sphere {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom, #FFDAB9, #FFA500);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 30px;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  form label, form input, form textarea, form button {
+    display: block;
+    margin: 15px 15px;
+    width: 90%;
+  }
+  
+  form button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    margin-top: auto;
+  }
+  
+  #toggleMode {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    justify-content: flex-end;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: orange;
+  }
+  
+  #posts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: double 2rem black;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.left-side {
+    border-right: double 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
